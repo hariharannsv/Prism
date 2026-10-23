@@ -1,0 +1,46 @@
+{
+  "worktrees": {
+    "wt-1792654928178-1": {
+      "branch": "eminent-fifth",
+      "path": "c:\\hariharan\\projects\\prism\\.kilo\\worktrees\\eminent-fifth",
+      "parentBranch": "master",
+      "createdAt": "2026-10-22T07:42:08.178Z",
+      "branchOwned": true,
+      "autoNameSessionId": "ses_e9d708207ffewwzDT2Sz3bA4fQ",
+      "autoNamePromptCount": 0
+    },
+    "wt-1792654964078-2": {
+      "branch": "azure-verbena",
+      "path": "c:\\hariharan\\projects\\prism\\.kilo\\worktrees\\azure-verbena",
+      "parentBranch": "master",
+      "createdAt": "2026-10-22T07:42:44.078Z",
+      "branchOwned": true,
+      "autoNameSessionId": "ses_e9d7001e8ffeQnj02QQVmSUjKA",
+      "autoNamePromptCount": 0
+    }
+  },
+  "sessions": {
+    "ses_e9d708207ffewwzDT2Sz3bA4fQ": {
+      "worktreeId": "wt-1792654928178-1",
+      "createdAt": "2026-10-22T07:42:13.514Z"
+    },
+    "ses_e9d7001e8ffeQnj02QQVmSUjKA": {
+      "worktreeId": "wt-1792654964078-2",
+      "createdAt": "2026-10-22T07:42:46.358Z"
+    }
+  },
+  "tabOrder": {
+    "local": [
+      "pending:34f2d9fb-b0b0-4d6d-87ac-c29f5c677e0b"
+    ]
+  },
+  "worktreeOrder": [
+    "wt-1792654928178-1",
+    "wt-1792654964078-2"
+  ],
+  "sessionsCollapsed": true,
+  "activeTarget": {
+    "projectId": "prj-8b89671f3b85",
+    "kind": "local"
+  }
+}

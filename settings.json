@@ -1,0 +1,156 @@
+{
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 15.2,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": "active",
+  "editor.selectionHighlight": true,
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.wordWrapColumn": 1000,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "html.format.wrapLineLength": 0,
+
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.hidesExplorerArrows": false,
+
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.secondarySideBar.showLabels": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+
+  "terminal.explorerKind": "external",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+
+  "emmet.showSuggestionsAsSnippets": true,
+
+  "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
+  "files.associations": {
+    "*html": "html"
+  },
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#000",
+    "sideBar.border": "#37393d",
+    "activityBar.background": "#000000",
+    "activityBar.border": "#2b2b2b",
+    "sideBar.background": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.border": "#079af6",
+    "statusBar.foreground": "#fffb00",
+    "terminal.background": "#000000",
+    "panel.background": "#000000",
+    "terminal.foreground": "#D4D4D4",
+    "icon.foreground": "#ededed",
+    "activityBarBadge.background": "#ff6bcb",
+    "activityBar.activeBorder": "#ff6bcb",
+    "activityBar.activeFocusBorder": "#ff0000",
+    "activityBar.foreground": "#ffffff",
+    "tab.activeBorder": "#ff6bcb",
+    "toolbar.activeBackground": "#63666750",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#a5c6da",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBackground": "#23272e",
+    "tab.hoverBackground": "#153772",
+    "tab.hoverForeground": "#ffffff",
+    "list.dropBackground": "#062f4a",
+    "titleBar.activeBackground": "#000000",
+    "input.background": "#20252c",
+    "button.background": "#079af6",
+    "dropdown.background": "#0a0b0c",
+    "dropdown.foreground": "#ffffff",
+    "dropdown.border": "#3c3c3c",
+    "dropdown.listBackground": "#1e1e1e",
+    "list.activeSelectionBackground": "#094771",
+    "list.activeSelectionForeground": "#ffffff",
+    "sideBar.foreground": "#ffffff",
+    "sideBarSectionHeader.foreground": "#c6d5d5",
+    "sideBar.activeSelectionForeground": "#ffffff",
+    "sideBar.inactiveSelectionForeground": "#1d1d1d",
+    "list.hoverForeground": "#ff6bcb",
+    "list.deemphasizedForeground": "#1d1d1d",
+    "editorSuggestWidget.background": "#141414",
+    "editorSuggestWidget.selectedBackground": "#094771",
+    "editorSuggestWidget.border": "#35a2c9",
+    "editorSuggestWidget.detailForeground": "#cccccc",
+    "editor.lineHighlightBackground": "#141415",
+    "editorSuggestWidget.selectedForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#161515",
+    "list.inactiveSelectionForeground": "#cccccc",
+    "editorCursor.foreground": "#9a86fd"
+  },
+
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "property": {
+        "foreground": "#fe9cb3",
+        "fontStyle": "italic"
+      },
+      "function": {
+        "foreground": "#f0f083",
+        "fontStyle": "italic  "
+      },
+      "function.builtin": {
+        "foreground": "#EC3479",
+        "fontStyle": "italic"
+      },
+      "function.declaration": {
+        "foreground": "#78129a",
+        "fontStyle": "underline"
+      },
+      "parameter": {
+        "foreground": "#569CD6",
+        "fontStyle": "italic"
+      },
+      "parameter.declaration": {
+        "foreground": "#63e078",
+        "fontStyle": "italic"
+      },
+      // "variable": {
+      //   "foreground": "#5199eb",
+      //   "fontStyle": ""
+      // },
+      "variable.declaration": {
+        "foreground": "#98d8a6",
+        "fontStyle": "italic "
+      },
+      "class": {
+        "foreground": "#24ebd0",
+        "fontStyle": "italic"
+      },
+      "variable.readonly": {
+        "foreground": "#b8d7a3",
+        "fontStyle": "italic"
+      }
+    }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.layoutControl.enabled": false,
+  "editor.linkedEditing": true
+}

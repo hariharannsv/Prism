@@ -1,0 +1,39 @@
+ .gitignore                                         |   3 [32m+[m
+ PMS/__pycache__/__init__.cpython-312.pyc           | Bin [31m262[m -> [32m0[m bytes
+ PMS/__pycache__/celery.cpython-312.pyc             | Bin [31m597[m -> [32m0[m bytes
+ PMS/__pycache__/settings.cpython-312.pyc           | Bin [31m5787[m -> [32m0[m bytes
+ PMS/__pycache__/urls.cpython-312.pyc               | Bin [31m1578[m -> [32m0[m bytes
+ core/__pycache__/Callbapi.cpython-312.pyc          | Bin [31m4105[m -> [32m0[m bytes
+ core/__pycache__/__init__.cpython-312.pyc          | Bin [31m187[m -> [32m0[m bytes
+ core/__pycache__/admin.cpython-312.pyc             | Bin [31m181[m -> [32m0[m bytes
+ core/__pycache__/apps.cpython-312.pyc              | Bin [31m548[m -> [32m0[m bytes
+ core/__pycache__/mbd_cycle_utils.cpython-312.pyc   | Bin [31m8573[m -> [32m0[m bytes
+ core/__pycache__/models.cpython-312.pyc            | Bin [31m183[m -> [32m0[m bytes
+ core/__pycache__/mongo_connection.cpython-312.pyc  | Bin [31m1906[m -> [32m0[m bytes
+ .../nav_module_settings.cpython-312.pyc            | Bin [31m9968[m -> [32m0[m bytes
+ core/__pycache__/nav_modules.cpython-312.pyc       | Bin [31m3935[m -> [32m0[m bytes
+ core/__pycache__/oee_report_source.cpython-312.pyc | Bin [31m85124[m -> [32m0[m bytes
+ core/__pycache__/plant_access.cpython-312.pyc      | Bin [31m3406[m -> [32m0[m bytes
+ core/__pycache__/urls.cpython-312.pyc              | Bin [31m42880[m -> [32m0[m bytes
+ core/__pycache__/utils.cpython-312.pyc             | Bin [31m5484[m -> [32m0[m bytes
+ core/nav_modules.py                                |   8 [32m+[m
+ .../static/internal/css/LineMaster/line_master.css | 179 [32m++++[m[31m-[m
+ .../css/LineMonitoring/line_monitoring.css         |  26 [32m+[m
+ core/static/internal/js/LineMaster/line_master.js  | 802 [32m+++++++++++[m[31m----------[m
+ core/static/internal/js/Machine/machine.js         | 213 [32m+++[m[31m---[m
+ .../static/internal/js/Machine/machinelist_edit.js | 762 [32m+++++++++++++[m[31m-------[m
+ core/templates/LineMaster/line_master.html         |  66 [32m+[m[31m-[m
+ core/templates/LineMonitoring/line_monitoring.html |  65 [32m++[m
+ core/templates/LineMonitoring/line_select.html     |  36 [32m+[m
+ core/templates/Machine/machine.html                |  10 [32m+[m[31m-[m
+ core/templates/Machine/machinelist.html            |  17 [32m+[m[31m-[m
+ core/templates/layouts/navbar_modules.html         |   6 [32m+[m
+ core/urls.py                                       |  39 [32m+[m[31m-[m
+ core/views/__pycache__/addmachine.cpython-312.pyc  | Bin [31m14883[m -> [32m0[m bytes
+ core/views/__pycache__/line_master.cpython-312.pyc | Bin [31m15373[m -> [32m0[m bytes
+ .../__pycache__/machinedashboard.cpython-312.pyc   | Bin [31m78607[m -> [32m0[m bytes
+ core/views/__pycache__/mainviews.cpython-312.pyc   | Bin [31m15034[m -> [32m0[m bytes
+ core/views/addmachine.py                           | 105 [32m+++[m
+ core/views/line_master.py                          | 341 [32m++++[m[31m-----[m
+ core/views/line_monitoring.py                      | 159 [32m++++[m
+ 38 files changed, 1812 insertions(+), 1025 deletions(-)
